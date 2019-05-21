@@ -43,7 +43,7 @@ metadata:
   namespace: team-a-dev
 spec:
   rules:
-  - host: eureka.team-a.twu-china.cn
+  - host: eureka.team-a.cloud.school.thoughtworks.cn
     http:
       paths:
       - path: /
