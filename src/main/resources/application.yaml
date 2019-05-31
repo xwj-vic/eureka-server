@@ -1,4 +1,11 @@
+spring:
+  application:
+    name: eureka-server
 eureka:
   client:
     register-with-eureka: false  # 当前微服务不注册到eureka中(消费端)
     fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
+server:
+  port: 8090
